@@ -1,3 +1,4 @@
+```
 import {AfterViewInit, ApplicationRef, Component, ComponentFactoryResolver, Injector, OnDestroy, ViewChild} from '@angular/core';
 import {CdkPortal, DomPortalHost} from '@angular/cdk/portal';
 
@@ -75,3 +76,5 @@ export class ButtonComponent implements AfterViewInit, OnDestroy {
     this.host.detach();
   }
 }
+
+```
