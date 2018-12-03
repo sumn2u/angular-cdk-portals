@@ -1,3 +1,51 @@
+# Anguar CDK portals example
+
+###
+View [article](https://medium.com/@sumn2u/dynamic-ui-using-portals-in-angular-cdk-6051988b0f81)
+
+## Prerequisites
+You will need the following things properly installed on your laptop/pc.
+
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+
+## Installing Nodejs via `nvm` [docs](https://github.com/creationix/nvm)
+* **Install Script**
+-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash` 
+- or `wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash`
+* **Load nvm**
+-`export NVM_DIR="$HOME/.nvm"`
+- `[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"`
+* **Verify Installation**
+- `command -v nvm`
+- `nvm -v`
+* **Download latest node**
+- `nvm install node`
+* **Use Node**
+- `nvm use node`
+
+## Installation
+
+* `git clone <repository-url>` this repository
+*  change into the new directory
+* `npm install`
+
+
+## Running / Development
+
+* `npm start`
+
+
+### Running Tests
+
+* `npm run test`
+
+### Building
+
+* ` npm run build` (production)
+
+### Creating portal 
+
 ```
 import {AfterViewInit, ApplicationRef, Component, ComponentFactoryResolver, Injector, OnDestroy, ViewChild} from '@angular/core';
 import {CdkPortal, DomPortalHost} from '@angular/cdk/portal';
@@ -78,3 +126,7 @@ export class ButtonComponent implements AfterViewInit, OnDestroy {
 }
 
 ```
+###
+View [article](https://medium.com/@sumn2u/dynamic-ui-using-portals-in-angular-cdk-6051988b0f81)
+
+
